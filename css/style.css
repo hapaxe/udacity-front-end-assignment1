@@ -1,19 +1,24 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 .container{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 250px 600px;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 100px 612px 100px; // 612 to fit iphone x;
     grid-template-areas:
     "sd hd hd hd hd hd hd hd"
     "sd main main main main main main main"
-    "ft ft ft ft ft ft ft ft";
-    border: 2px #680E4B;
+    "sd ft ft ft ft ft ft ft";
     font-family: monospace;
 }
 .box{
   /* border: 1px solid #680E4B; */
   background: #2F3437;
   color: white;
-  }
+}
 .header{
   grid-area:hd;
   padding: 10px;
@@ -31,13 +36,13 @@
   padding: 10px;
 }
 
-ul {
+#sideitems {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li a {
+.sideitem {
   display: block;
   /* color: #000; */
   color: white;
@@ -45,20 +50,20 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.sideitem:hover {
   background-color: #555;
 }
 
-/* If Screen Is Wide Enough */
-/* @media(min-width:900px){
+@media(min-height:900px){
 .container{
       display:grid;
-      grid-template-columns: 300px 300px 300px;
+      grid-template-columns: auto 1fr;
       grid-template-rows: 250px 600px;
       grid-template-areas:
-      "hd hd hd hd hd hd hd hd"
-      "sd sd main main main main main main"
-      "ft ft ft ft ft ft ft ft";
-      border: 2px solid red;
+      "sd hd hd hd hd hd hd hd"
+      "sd main main main main main main main"
+      "sd ft ft ft ft ft ft ft";
+      /* border: 2px solid red; */
+      font-family: monospace;
   }
-} */
+}
