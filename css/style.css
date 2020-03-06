@@ -1,0 +1,61 @@
+.container{
+  /* Step 1: Set display to grid */
+    display:grid;
+ /* Step 2: setup rows amd columns */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 600px;
+    grid-template-areas:
+    "sd hd hd hd hd hd hd hd"
+    "sd main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+    border: 2px #ffffff8;
+}
+.box{
+  border: 1px solid red;
+  background: #F8FA9D;
+  }
+.header{
+  grid-area:hd;
+}
+.footer{
+  grid-area:ft;
+}
+.sidebar{
+  grid-area:sd;
+}
+.content{
+  grid-area:main;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* If Screen Is Wide Enough */
+/* @media(min-width:900px){
+.container{
+      display:grid;
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 250px 600px;
+      grid-template-areas:
+      "hd hd hd hd hd hd hd hd"
+      "sd sd main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+      border: 2px solid red;
+  }
+} */
