@@ -16,13 +16,13 @@ body {
     min-height: 100%;
 }
 .box{
-  /* border: 1px solid #680E4B; */
   background: #2F3437;
   color: white;
 }
 .header{
   grid-area:hd;
   padding: 10px;
+  font-size: large;
 }
 .footer{
   grid-area:ft;
@@ -37,18 +37,32 @@ body {
   padding: 10px;
 }
 
-#sideitems {
+#coresideitems {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.sideitem {
+.coresideitem {
   display: block;
-  /* color: #000; */
   color: white;
   padding: 8px 16px;
   text-decoration: none;
+  font-size: large;
+}
+
+#blogposts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blogpostlink {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: large;
 }
 
 .sideitem:hover {

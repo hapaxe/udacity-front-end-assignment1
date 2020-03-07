@@ -1,0 +1,6 @@
+.blogpost {
+  display: flex;
+  flex-direction: column;
+  background-color: #5B7E93;
+  padding: 10px;
+}
