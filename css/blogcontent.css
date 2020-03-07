@@ -9,5 +9,21 @@ img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
+  width: 175px;
+}
+
+@media(min-width:450px){
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
+
+@media(min-width:900px){
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
   width: 600px;
 }
