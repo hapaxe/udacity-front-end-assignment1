@@ -4,3 +4,10 @@
   background-color: #5B7E93;
   padding: 10px;
 }
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 600px;
+}
