@@ -7,12 +7,13 @@ body {
 .container{
     display:grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: 100px 612px 100px; // 612 to fit iphone x;
+    grid-template-rows: auto 700px 100px; // 612 to fit iphone x;
     grid-template-areas:
     "sd hd hd hd hd hd hd hd"
     "sd main main main main main main main"
     "sd ft ft ft ft ft ft ft";
     font-family: monospace;
+    min-height: 100%;
 }
 .box{
   /* border: 1px solid #680E4B; */
@@ -58,7 +59,7 @@ body {
 .container{
       display:grid;
       grid-template-columns: auto 1fr;
-      grid-template-rows: 250px 600px;
+      grid-template-rows: auto 900px 100px;
       grid-template-areas:
       "sd hd hd hd hd hd hd hd"
       "sd main main main main main main main"
