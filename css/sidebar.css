@@ -1,0 +1,31 @@
+.sidebar{
+  grid-area:sd;
+  background: #373C3F;
+}
+#coresideitems {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.coresideitem {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+#blogposts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.blogpostlink {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+.sideitem:hover {
+  background-color: #555;
+}
