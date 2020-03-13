@@ -22,6 +22,12 @@ body {
   grid-area:main;
   padding: 10px;
 }
+.button{
+  background-color: #A0CBE5;
+}
+.button:hover{
+  background-color: #7FA8C1;
+}
 @media(min-height:900px){
 .container{
       display:grid;
