@@ -1,6 +1,6 @@
 .sidebar{
   grid-area:sd;
-  background: #373C3F;
+  background-color: #232526;
 }
 #coresideitems {
   list-style-type: none;

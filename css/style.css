@@ -1,3 +1,10 @@
+@import "./sidebar.css";
+@import "about.css";
+@import "blogcontent.css";
+@import "footer.css";
+@import "header.css";
+@import "social.css";
+
 body {
   height: 100%;
   width: 100%;
